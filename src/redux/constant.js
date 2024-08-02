@@ -233,10 +233,10 @@ export const BUTTON_RENDER_SELECT_NATIONAL = [
 // Banner Singer Popular
 export const BANNER_SINGER_POPULAR = [
     {
-        src: require('../assets/images/BannerSinger/banner-g5-squad.jpg'),
-        name_singer: 'G5 Squad',
-        slug_banner_singer_popular: 'g5r-squad',
-        title: 'Những Bài Hát Hay Nhất Của G5R',
+        src: require('../assets/images/BannerSinger/banner-son-tung.jpg'),
+        name_singer: 'Sơn Tùng MTP',
+        slug_banner_singer_popular: 'son-tung-mtp',
+        title: 'Những Bài Hát Hay Nhất Của Sơn Tùng MTP',
     },
     {
         src: require('../assets/images/BannerSinger/banner-ho-quang-hieu.jpg'),
@@ -245,10 +245,10 @@ export const BANNER_SINGER_POPULAR = [
         title: 'Những Bài Hát Hay Nhất Của Hồ Quang Hiếu',
     },
     {
-        src: require('../assets/images/BannerSinger/banner-jack-97.jpg'),
-        name_singer: 'Jack 97',
-        slug_banner_singer_popular: 'jack',
-        title: 'Những Bài Hát Hay Nhất Của Jack',
+        src: require('../assets/images/BannerSinger/banner-karik.jpg'),
+        name_singer: 'Karik',
+        slug_banner_singer_popular: 'karik',
+        title: 'Những Bài Hát Hay Nhất Của Karik',
     },
     {
         src: require('../assets/images/BannerSinger/banner-phan-manh-quynh.jpg'),
@@ -257,48 +257,48 @@ export const BANNER_SINGER_POPULAR = [
         title: 'Những Bài Hát Hay Nhất Của Phan Mạnh Quỳnh',
     },
     {
-        src: require('../assets/images/BannerSinger/banner-son-tung-mtp.jpg'),
-        name_singer: 'Sơn Tùng MTP',
-        slug_banner_singer_popular: 'son-tung-m-tp',
-        title: 'Những Bài Hát Hay Nhất Của Sơn Tùng MTP',
+        src: require('../assets/images/BannerSinger/banner-blackpink.jpg'),
+        name_singer: 'BLACKPINK',
+        slug_banner_singer_popular: 'blackpink',
+        title: 'Những Bài Hát Hay Nhất Của BLACKPINK',
     },
 ];
 
 export const BANNER_ALBUM_HOT = [
     {
-        src: require('../assets/images/BannerAlbumHot/banner-album-hot-nhac-edm.jpg'),
-        slug_banner_album_hot: 'edm',
-        title: 'Đỉnh Cao EDM',
+        src: require('../assets/images/BannerAlbumHot/nhac-buon.jpg'),
+        slug_banner_album_hot: 'nhac-buon',
+        title: 'Nhạc cho người thất tình',
         name_data: [
             {
-                name_singer: 'Alan Walker',
-                slug_name_singer: 'alan-walker-torine',
+                name_singer: 'Tổng hợp',
+                slug_name_singer: 'nhac-buon',
             },
-            {
-                name_singer: 'DXRK ダーク',
-                slug_name_singer: 'dxrk-ダーク',
-            },
+            // {
+            //     name_singer: 'DXRK ダーク',
+            //     slug_name_singer: 'dxrk-ダーク',
+            // },
         ],
     },
-    {
-        src: require('../assets/images/BannerAlbumHot/banner-album-hot-nhac-han.jpg'),
-        slug_banner_album_hot: 'nhac-han',
-        title: 'Những Bài Hát Hay Nhất HÀN "XẺNG"',
-        name_data: [
-            {
-                slug_name_singer: 'bts',
-                name_singer: 'BTS',
-            },
-            {
-                slug_name_singer: 'blackpink',
-                name_singer: 'BlackPink',
-            },
-            {
-                slug_name_singer: 'treasure',
-                name_singer: 'TREASURE',
-            },
-        ],
-    },
+    // {
+    //     src: require('../assets/images/BannerAlbumHot/banner-album-hot-nhac-han.jpg'),
+    //     slug_banner_album_hot: 'nhac-han',
+    //     title: 'Những Bài Hát Hay Nhất HÀN "XẺNG"',
+    //     name_data: [
+    //         {
+    //             slug_name_singer: 'bts',
+    //             name_singer: 'BTS',
+    //         },
+    //         {
+    //             slug_name_singer: 'blackpink',
+    //             name_singer: 'BlackPink',
+    //         },
+    //         {
+    //             slug_name_singer: 'treasure',
+    //             name_singer: 'TREASURE',
+    //         },
+    //     ],
+    // },
     {
         src: require('../assets/images/BannerAlbumHot/banner-album-hot-nhac-pop-au-my.jpg'),
         slug_banner_album_hot: 'pop-au-my',
@@ -329,21 +329,21 @@ export const BANNER_ALBUM_HOT = [
             },
         ],
     },
-    {
-        src: require('../assets/images/BannerAlbumHot/banner-album-hot-rap-viet.jpg'),
-        slug_banner_album_hot: 'rap',
-        title: 'Cháy Hết Mình Với Những Bản Rap Hay Nhất Mọi Thời Đại',
-        name_data: [
-            {
-                slug_name_singer: 'kidz',
-                name_singer: 'KIDZ',
-            },
-            {
-                slug_name_singer: 'b-ray-x-masew-ft-amee',
-                name_singer: 'Bray',
-            },
-        ],
-    },
+    // {
+    //     src: require('../assets/images/BannerAlbumHot/banner-album-hot-rap-viet.jpg'),
+    //     slug_banner_album_hot: 'rap',
+    //     title: 'Cháy Hết Mình Với Những Bản Rap Hay Nhất Mọi Thời Đại',
+    //     name_data: [
+    //         {
+    //             slug_name_singer: 'kidz',
+    //             name_singer: 'KIDZ',
+    //         },
+    //         {
+    //             slug_name_singer: 'b-ray-x-masew-ft-amee',
+    //             name_singer: 'Bray',
+    //         },
+    //     ],
+    // },
 ];
 
 // List Theme
