@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 export const request = axios.create({
-    baseURL: process.env.REACT_APP_URL_ZING,
-    // baseURL: "https://api-zing-mp3-sandy.vercel.app/api",
+    baseURL: process.env.REACT_APP_URL_ZING
 });
 export const get = async (path, options = {}) => {
     const res = await request.get(path, options);
