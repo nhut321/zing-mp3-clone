@@ -508,7 +508,7 @@ export const MENU_THEME_LIST = {
             },
         },
         {
-            title: 'Linh',
+            title: 'Linh 6',
             cardArtist: require('../assets/images/LisTheme/card_artist/card_theme_lin.jpg'),
             properties: {
                 backgroundImg: require('../assets/images/LisTheme/img-background_lin.jpg'),
@@ -528,7 +528,7 @@ export const MENU_THEME_LIST = {
 
         },
         {
-            title: 'Lin 4',
+            title: 'Lin Lin',
             cardArtist: require('../assets/images/LisTheme/card_artist/card_theme_sea.jpg'),
             properties: {
                 backgroundImg: require('../assets/images/LisTheme/img-background_sea.jpg'),
