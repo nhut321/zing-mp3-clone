@@ -349,26 +349,26 @@ export const BANNER_ALBUM_HOT = [
 // List Theme
 export const MENU_THEME_LIST = {
     artist: [
-        {
-            title: 'Ganyu',
-            cardArtist: require('../assets/images/LisTheme/card_artist/card_theme_ganyu.jpg'),
-            properties: {
-                backgroundImg: require('../assets/images/LisTheme/img-background_ganyu.jpg'),
-                colorPrimary: '#1A3570',
-                textHover: '#4C7CFF',
-                layoutBg: 'tranparent',
-                layoutHeaderBg: 'rgba(179, 216, 219, 0.8)',
-                playerBg: '#A3D5DC',
-                primaryBg: '#D1EDF0',
-                textPrimary: '#32323d',
-                textSecondary: '#333333b0',
-                purplePrimary: '#1966B2',
-                newSongLayout: 'tranparent',
-                borderPlayer: 'rgba(0,0,0,0.15)',
-                backgrondSize: 'cover',
-                sidebarPoup: '#cce0e0',
-            },
-        },
+        // {
+        //     title: 'Ganyu',
+        //     cardArtist: require('../assets/images/LisTheme/card_artist/card_theme_ganyu.jpg'),
+        //     properties: {
+        //         backgroundImg: require('../assets/images/LisTheme/img-background_ganyu.jpg'),
+        //         colorPrimary: '#1A3570',
+        //         textHover: '#4C7CFF',
+        //         layoutBg: 'tranparent',
+        //         layoutHeaderBg: 'rgba(179, 216, 219, 0.8)',
+        //         playerBg: '#A3D5DC',
+        //         primaryBg: '#D1EDF0',
+        //         textPrimary: '#32323d',
+        //         textSecondary: '#333333b0',
+        //         purplePrimary: '#1966B2',
+        //         newSongLayout: 'tranparent',
+        //         borderPlayer: 'rgba(0,0,0,0.15)',
+        //         backgrondSize: 'cover',
+        //         sidebarPoup: '#cce0e0',
+        //     },
+        // },
         {
             title: 'Mặc định',
             cardArtist:
