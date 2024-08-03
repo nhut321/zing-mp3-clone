@@ -3,9 +3,10 @@ import Wrapper from './components/Wrapper/Wrapper';
 import { DefaultLayout } from './layouts/';
 import Controls from './layouts/components/Controls';
 import { privateRoutes } from './routes';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
+
     // Hàm xử lý sự kiện chuột phải
   const handleContextMenu = (event) => {
     event.preventDefault(); // Ngăn chặn menu ngữ cảnh mặc định

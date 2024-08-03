@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
@@ -13,6 +13,7 @@ import SliderSlick from '../../layouts/components/Sliderslick';
 const cx = classNames.bind(styles);
 
 function Home() {
+    
     const dispatch = useDispatch();
     const navigate = useNavigate();
     const { songCurrent } = useSelector(combinedStatusSelector);
