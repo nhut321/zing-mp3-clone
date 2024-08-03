@@ -14,7 +14,7 @@ import AccountPage from '../pages/Account/Account';
 import { AccountLayout, NewSongLayout } from '../layouts';
 import ArtistBanner from '../pages/ArtistBanner/ArtistBanner';
 import Radio from '../pages/Radio/Radio';
-import { Upload } from '../components/Icons';
+import UploadSong from '../pages/UploadSong';
 
 const config = {
     home: {
@@ -73,13 +73,13 @@ const config = {
         component:  Top100,
         path: 'top-100-song',
     },
+    uploadsong: {
+        component: UploadSong,
+        path: 'admin/upload',
+    },
     errorpage: {
         component: Error,
         path: '*',
-    },
-    uploadsong: {
-        component: Upload,
-        path: 'upload',
-    },
+    }
 };
 export default config;

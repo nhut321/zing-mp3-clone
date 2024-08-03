@@ -34,7 +34,7 @@ export const privateRoutes = [
     },
     {
         path: config.newupdate.path,
-        component: config.newupdate.component,
+        component: config.newupdate.component, 
         layout: config.newupdate.layout,
     },
     {

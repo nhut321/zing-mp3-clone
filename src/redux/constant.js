@@ -527,5 +527,24 @@ export const MENU_THEME_LIST = {
             },
 
         },
+        {
+            title: 'Lin 4',
+            cardArtist: require('../assets/images/LisTheme/card_artist/card_theme_sea.jpg'),
+            properties: {
+                backgroundImg: require('../assets/images/LisTheme/img-background_sea.jpg'),
+                colorPrimary: '#D08011',
+                textHover: '#F59D22',
+                playerBg: '#4C473E',
+                layoutHeaderBg: '#767269cc',
+                layoutBg: 'tranparentent',
+                primaryBg: '#605C52',
+                textPrimary: '#FFFF',
+                textSecondary: 'hsla(0,0%,100%,0.5)',
+                purplePrimary: '#D08011',
+                newSongLayout: 'tranparent',
+                borderPlayer: 'rgba(0,0,0,0.05)',
+                sidebarPoup: '#604a45',
+            },
+        },
     ],
 };
