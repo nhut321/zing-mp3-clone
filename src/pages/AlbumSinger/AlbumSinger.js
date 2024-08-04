@@ -46,6 +46,7 @@ function AlbumSinger() {
         );
         return newList === index;
     });
+
     const filteredFavoriteArtists = [...listArtist.slice(0, 5)];
 
     const handlReqirePlayFromBanner = (data) => {
@@ -110,7 +111,7 @@ function AlbumSinger() {
             dispatch(statusSlice.actions.isPageLoadingChange(true));
 
             const fetchBannerAlbumHot = async () => {
-                const result = await getMusicTopView(300);
+                const result = await getMusicTopView(50);
 
                 const dataBannerAlbum = result.filter((item) => {
                     return item?.slug_category === slugBannerAlBumHot;

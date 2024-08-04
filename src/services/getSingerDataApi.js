@@ -6,6 +6,6 @@ export const getSingerDataApi = async (slug_name_singer, limit) => {
             _singer: slug_name_singer,
             _limit: limit,
         },
-    });
+    }); 
     return result.data;
 };

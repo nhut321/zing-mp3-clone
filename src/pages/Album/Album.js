@@ -17,6 +17,7 @@ function Album() {
     const [dataFullSongs, setDataSinger] = useState([]);
     const [currentSinger, setCurrentSinger] = useState('');
 
+
     useEffect(() => {
         const fetch = async () => {
             if (dataFullSongs.length === 0) {
