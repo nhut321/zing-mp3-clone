@@ -7,6 +7,5 @@ export const getMusicTop = async (limit = 100, page) => {
             _page: page,
         },
     });
-    console.log(result)
     return result.data;
 };

@@ -26,7 +26,7 @@ function Sidebar() {
     const imgError = require('../../../assets/images/userError.png')
 
      
-    const RenderMenuMain = ({ isTablet }) => {
+    const RenderMenuMain = ({ isTablet }) => { 
         const result = SIDEBAR_MENU.map((item, index) => {
             const handleClickActive = (e, index) => {
                 if (

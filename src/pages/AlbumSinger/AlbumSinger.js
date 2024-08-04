@@ -10,7 +10,7 @@ import { Banner } from '../../components/Banner';
 import { convertNumber, useDate } from '../../hooks';
 import RenderArtist from '../../Feature/RenderArtist';
 import { combinedStatusSelector } from '../../redux/selector';
-import { getMusicTopView, getSingerDataApi } from '../../services';
+import { getMusicTopView, getSingerDataApi, getMusicCategory } from '../../services';
 import TitlePage from '../../layouts/components/TitlePage/TitlePage';
 import { RenderFullListSong } from '../../Feature/HandleEvent/handleEvent';
 import ButtonEffectPlay from '../../components/Button/config/ButtonEffectPlay';
@@ -29,7 +29,7 @@ function AlbumSinger() {
 
     const [dataFullSongs, setDataSinger] = useState([]);
     const [dataInAlbum, setDataInAlbum] = useState({});
-    const favorite = convertNumber(dataInAlbum.favorite);
+    const favorite = convertNumber(dataInAlbum?.favorite);
     const timer = useDate(dataInAlbum?.createdAt);
 
     // constants check value in store and location
@@ -110,8 +110,10 @@ function AlbumSinger() {
         if (isBannerAlbumHot) {
             dispatch(statusSlice.actions.isPageLoadingChange(true));
 
+
             const fetchBannerAlbumHot = async () => {
-                const result = await getMusicTopView(50);
+                // const result = await getMusicTopView(300);
+                const result = await getMusicCategory(slugBannerAlBumHot, 15, 0);
 
                 const dataBannerAlbum = result.filter((item) => {
                     return item?.slug_category === slugBannerAlBumHot;

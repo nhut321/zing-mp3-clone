@@ -7,6 +7,5 @@ export const getTrendingDataApi = async (limit, page = 0) => {
             _page: page,
         },
     });
-    console.log(result)
     return result.data;
 };

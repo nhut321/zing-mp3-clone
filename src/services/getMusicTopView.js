@@ -7,7 +7,6 @@ export const getMusicTopView = async (limit, page = 0) => {
             _page: page, 
         },
     });
-    console.log(result)
 
     return result.data;
 };

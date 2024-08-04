@@ -4,3 +4,4 @@ export * from './getSingerDataApi';
 export * from './getMusicNameApi';
 export * from './getTrendingMusicApi';
 export * from './getMusicTopView';
+export * from './getMusicCategory';

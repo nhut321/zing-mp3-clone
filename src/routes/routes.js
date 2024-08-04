@@ -66,4 +66,9 @@ export const privateRoutes = [
         path: config.uploadsong.path,
         component: config.uploadsong.component,
     },
+    {
+        path: config.chat.path,
+        component: config.chat.component,
+    },
+    
 ];

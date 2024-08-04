@@ -22,6 +22,7 @@ import {
     Star,
     ThemeMusic,
     Upload,
+    Message
 } from '../components/Icons';
 
 // MENU action and button
@@ -172,6 +173,11 @@ export const SIDEBAR_MENU = [
         title: 'Top 100',
         icon: Star,
         to: '/top-100-song',
+    },
+    {
+        title: 'Chat',
+        icon: Message,
+        to: '/chat',
     },
     /*  {
         title: 'MV',

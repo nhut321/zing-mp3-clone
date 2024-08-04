@@ -15,6 +15,7 @@ import { AccountLayout, NewSongLayout } from '../layouts';
 import ArtistBanner from '../pages/ArtistBanner/ArtistBanner';
 import Radio from '../pages/Radio/Radio';
 import UploadSong from '../pages/UploadSong';
+import ChatPage from '../pages/ChatPage';
 
 const config = {
     home: {
@@ -77,6 +78,11 @@ const config = {
         component: UploadSong,
         path: 'admin/upload',
     },
+    chat: {
+        component: ChatPage,
+        path: 'chat'
+    }
+    ,
     errorpage: {
         component: Error,
         path: '*',

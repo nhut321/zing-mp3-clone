@@ -38,6 +38,7 @@ import {
     faTriangleExclamation,
     faArrowLeft,
     faArrowRight,
+    faMessage
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import images from '../../assets';
@@ -72,6 +73,9 @@ export const DowloadIcon = () => {
 };
 export const Setting = () => {
     return <FontAwesomeIcon icon={faGear} />;
+};
+export const Message = () => {
+    return <FontAwesomeIcon icon={faMessage} />;
 };
 export const IconsVIP = () => {
     return <FontAwesomeIcon icon={faGem} />;
