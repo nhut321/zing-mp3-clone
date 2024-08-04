@@ -21,13 +21,12 @@ function Sidebar() {
     const navigate = useNavigate();
     const { idActive, dataUser, isSidebarMobile } = useSelector(combinedStatusSelector);
     const [isOpenSideBar, setOpenSideBar] = useState(false);
-    // const imgError =
-    //     'https://digimedia.web.ua.pt/wp-content/uploads/2017/05/default-user-image.png';
     const imgError = require('../../../assets/images/userError.png')
+
 
      
     const RenderMenuMain = ({ isTablet }) => { 
-        const result = SIDEBAR_MENU.map((item, index) => {
+        const result = SIDEBAR_MENU.map((item, index) => { 
             const handleClickActive = (e, index) => {
                 if (
                     idActive === index &&

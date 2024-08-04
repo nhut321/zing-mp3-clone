@@ -6,21 +6,29 @@ import styles from './Sidebar.module.scss';
 
 const cx = classNames.bind(styles);
 
-function SidebarItem({ data, onClick, isActive, dataset, isTablet, isOpenSideBar }) { 
+function SidebarItem({
+    data,
+    onClick,
+    isActive,
+    dataset,
+    isTablet,
+    isOpenSideBar,
+}) {
+    console.log(data.title)
     return (
-        <li
-            className={cx(
-                'sidebar_item',
-                isActive ? 'isActive' : '',
-                isOpenSideBar && 'poup_tablet_item',
-            )}
-            onClick={onClick}
-            data-index={dataset}
-        >
-            <Button typeSideBar Icons={data.icon} title={data.title} to={data.to}>
-                {(!isTablet || isOpenSideBar) && data.title}
-            </Button>
-        </li>
+            <li
+                className={cx(
+                    'sidebar_item',
+                    isActive ? 'isActive' : '',
+                    isOpenSideBar && 'poup_tablet_item',
+                )}
+                onClick={onClick}
+                data-index={dataset}
+            >
+                <Button typeSideBar Icons={data.icon} title={data.title} to={data.to}>
+                    {(!isTablet || isOpenSideBar) && data.title}
+                </Button>
+            </li>
     );
 }
 
