@@ -112,8 +112,12 @@ function AlbumSinger() {
 
 
             const fetchBannerAlbumHot = async () => {
+<<<<<<< HEAD
                 // const result = await getMusicTopView(300);
                 const result = await getMusicCategory(slugBannerAlBumHot, 15, 0);
+=======
+                const result = await getMusicTopView(300);
+>>>>>>> 94c15ce44e28a6f501669970296da5401f53c23a
 
                 const dataBannerAlbum = result.filter((item) => {
                     return item?.slug_category === slugBannerAlBumHot;
