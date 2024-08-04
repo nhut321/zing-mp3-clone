@@ -111,7 +111,7 @@ function AlbumSinger() {
             dispatch(statusSlice.actions.isPageLoadingChange(true));
 
             const fetchBannerAlbumHot = async () => {
-                const result = await getMusicTopView(50);
+                const result = await getMusicTopView(300);
 
                 const dataBannerAlbum = result.filter((item) => {
                     return item?.slug_category === slugBannerAlBumHot;
