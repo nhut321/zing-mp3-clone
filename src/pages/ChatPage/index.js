@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import { getMessage } from '../../services/getMessage';
 import './ChatPage.css';
 
-const socket = io('http://localhost:8080'); // Địa chỉ của server Socket.IO
+const socket = io(process.env.REACT_APP_URL_ZING); // Địa chỉ của server Socket.IO
 
 const ChatPage = () => {
     const [messages, setMessages] = useState([]);
