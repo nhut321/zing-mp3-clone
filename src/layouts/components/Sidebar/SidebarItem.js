@@ -14,7 +14,6 @@ function SidebarItem({
     isTablet,
     isOpenSideBar,
 }) {
-    console.log(data.title)
     return (
             <li
                 className={cx(

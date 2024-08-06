@@ -33,8 +33,6 @@ function Sidebar() {
                     e.currentTarget.dataset.index !== index.toString()
                 ) {
                     dispatch(sidebarSlice.actions.setIdSidebarActive(null));
-
-                    // if lastEl active will off when nextEl active
                 } else {
                     dispatch(sidebarSlice.actions.setIdSidebarActive(index));
                 }
