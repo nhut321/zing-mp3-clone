@@ -1,0 +1,35 @@
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+  }
+
+
+  
+  .styleX {
+    color: #345594;
+    font-weight: 700;
+  }
+  
+  .styleO {
+    color: red;
+    font-weight: 700;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+
+  .square.last-move {
+    background-color: yellow; /* Hoặc màu khác để làm nổi bật ô vừa được đánh */
+    border: 2px solid red; /* Thêm viền để làm nổi bật hơn */
+}

@@ -67,8 +67,11 @@ export const privateRoutes = [
         component: config.uploadsong.component,
     },
     {
-        path: config.chat.path,
-        component: config.chat.component,
+        path: config.lobby.path,
+        component: config.lobby.component,
     },
-    
+    {
+        path: config.game.path,
+        component: config.game.component,
+    },
 ];

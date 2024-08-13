@@ -22,6 +22,7 @@ import {
     faXmark,
     faChevronLeft,
     faChevronRight,
+    faGamepad
 } from '@cseitz/fontawesome-svg-light';
 import { faEye, faHeart, faWindowRestore } from '@fortawesome/free-regular-svg-icons';
 import {
@@ -38,7 +39,7 @@ import {
     faTriangleExclamation,
     faArrowLeft,
     faArrowRight,
-    faMessage
+    faMessage,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import images from '../../assets';
@@ -77,6 +78,11 @@ export const Setting = () => {
 export const Message = () => {
     return <FontAwesomeIcon icon={faMessage} />;
 };
+export const Game = () => {
+    return <FontAwesomeIcon icon={faGamepad} />
+};
+
+
 export const IconsVIP = () => {
     return <FontAwesomeIcon icon={faGem} />;
 };

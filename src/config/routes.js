@@ -15,7 +15,8 @@ import { AccountLayout, NewSongLayout } from '../layouts';
 import ArtistBanner from '../pages/ArtistBanner/ArtistBanner';
 import Radio from '../pages/Radio/Radio';
 import UploadSong from '../pages/UploadSong';
-import ChatPage from '../pages/ChatPage';
+import Lobby from '../pages/Lobby';
+import Game from '../components/Game';
 
 const config = {
     home: {
@@ -78,11 +79,14 @@ const config = {
         component: UploadSong,
         path: 'admin/upload',
     },
-    chat: {
-        component: ChatPage,
-        path: 'chat'
-    }
-    ,
+    lobby: {
+        component: Lobby,
+        path: 'lobby'
+    },
+    game: {
+        component: Game,
+        path: 'game/:id'
+    },
     errorpage: {
         component: Error,
         path: '*',

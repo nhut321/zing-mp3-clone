@@ -3,17 +3,13 @@ import Button from '../components/Button';
 import {
     Ads,
     Block,
-    Category,
-    Chart,
     Dieukhoan,
     Discover,
-    Following,
     Heart,
     IconsVIP,
     Info,
     LogOut,
     More,
-    Mv,
     NewSong,
     Phone,
     Private,
@@ -22,7 +18,7 @@ import {
     Star,
     ThemeMusic,
     Upload,
-    Message
+    Game
 } from '../components/Icons';
 
 // MENU action and button
@@ -175,9 +171,9 @@ export const SIDEBAR_MENU = [
         to: '/top-100-song',
     },
     {
-        title: 'Chat',
-        icon: Message,
-        to: '/chat',
+        title: 'Game',
+        icon: Game,
+        to: '/lobby',
     },
     /*  {
         title: 'MV',
