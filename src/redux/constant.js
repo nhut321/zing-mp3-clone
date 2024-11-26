@@ -235,7 +235,7 @@ export const BUTTON_RENDER_SELECT_NATIONAL = [
 // Banner Singer Popular
 export const BANNER_SINGER_POPULAR = [
     {
-        src: require('../assets/images/BannerSinger/banner-son-tung.jpg'),
+        src: 'https://res.cloudinary.com/nhut-lin/image/upload/v1732642481/statics-assets/banner-son-tung_g30bup.jpg',
         name_singer: 'Sơn Tùng MTP',
         slug_banner_singer_popular: 'son-tung-mtp',
         title: 'Những Bài Hát Hay Nhất Của Sơn Tùng MTP',
@@ -247,7 +247,7 @@ export const BANNER_SINGER_POPULAR = [
         title: 'Những Bài Hát Hay Nhất Của Hồ Quang Hiếu',
     },
     {
-        src: require('../assets/images/BannerSinger/banner-karik.jpg'),
+        src: 'https://res.cloudinary.com/nhut-lin/image/upload/v1732642396/statics-assets/banner-karik_hbyyej.jpg',
         name_singer: 'Karik',
         slug_banner_singer_popular: 'karik',
         title: 'Những Bài Hát Hay Nhất Của Karik',
@@ -259,7 +259,7 @@ export const BANNER_SINGER_POPULAR = [
         title: 'Những Bài Hát Hay Nhất Của Phan Mạnh Quỳnh',
     },
     {
-        src: require('../assets/images/BannerSinger/banner-blackpink.jpg'),
+        src: 'https://res.cloudinary.com/nhut-lin/image/upload/v1732642395/statics-assets/banner-blackpink_evfhy8.jpg',
         name_singer: 'BLACKPINK',
         slug_banner_singer_popular: 'blackpink',
         title: 'Những Bài Hát Hay Nhất Của BLACKPINK',
@@ -268,7 +268,7 @@ export const BANNER_SINGER_POPULAR = [
 
 export const BANNER_ALBUM_HOT = [
     {
-        src: require('../assets/images/BannerAlbumHot/nhac-buon.jpg'),
+        src: 'https://res.cloudinary.com/nhut-lin/image/upload/v1732642766/statics-assets/nhac-buon_ofwhhg.jpg',
         slug_banner_album_hot: 'nhac-buon',
         title: 'Nhạc cho người thất tình',
         name_data: [
@@ -302,7 +302,7 @@ export const BANNER_ALBUM_HOT = [
     //     ],
     // },
     {
-        src: require('../assets/images/BannerAlbumHot/banner-album-hot-nhac-pop-au-my.jpg'),
+        src: 'https://res.cloudinary.com/nhut-lin/image/upload/v1732642765/statics-assets/banner-album-hot-nhac-pop-au-my_pxoyfr.jpg',
         slug_banner_album_hot: 'pop-au-my',
         title: 'Đỉnh Cao Nhạc Pop, Nghe Như Không Nghe !!!',
         name_data: [
