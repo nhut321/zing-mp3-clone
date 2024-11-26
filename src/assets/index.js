@@ -4,10 +4,10 @@ const images = {
     imgDefault: require('../assets/images/no-image.png'),
     iconTheme: require('../assets/images/icontheme.png'),
     bannerSlider: [
-        require('../assets/images/banner-1.jpg'),
-        require('../assets/images/banner-2.jpg'),
-        require('../assets/images/banner-3.jpg'),
-        require('../assets/images/banner-4.jpg'),
+        'https://res.cloudinary.com/nhut-lin/image/upload/v1732641835/statics-assets/banner-1_gizx7t.jpg',
+        'https://res.cloudinary.com/nhut-lin/image/upload/v1732641836/statics-assets/banner-2_zpx4ig.jpg',
+        'https://res.cloudinary.com/nhut-lin/image/upload/v1732641835/statics-assets/banner-3_yacarq.jpg',
+        'https://res.cloudinary.com/nhut-lin/image/upload/v1732641835/statics-assets/banner-4_tvmzln.jpg',
     ],
 };
 
