@@ -33,9 +33,7 @@
           "sizes": "1024x1024"
       }
   ],
-  "start_url": "https://anhtuan-music.vercel.app/",
-  "scope": "https://anhtuan-music.vercel.app/",
-  "display": "standalone",
+  "display": "read",
   "background_color": "#000000",
   "theme_color": "#000000"
 }
