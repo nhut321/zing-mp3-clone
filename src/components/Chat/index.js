@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useSocket } from "../../context/socketContext";
 
 const Chat = ({ roomID }) => {
-    const socket = useSocket();
+    /* const socket = useSocket();
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
 
@@ -54,6 +54,7 @@ const Chat = ({ roomID }) => {
             }} onClick={sendMessage}>Send</button>
         </div>
     );
+    */
 };
 
 export default Chat;
