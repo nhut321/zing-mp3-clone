@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSocket } from "../../context/socketContext";
 
-const Chat = ({ roomID }) => {
+const Chat = () => {
     /* const socket = useSocket();
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
